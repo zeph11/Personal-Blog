@@ -1,10 +1,11 @@
 import React, { useRef, useState } from "react";
 import { Grid } from "@mui/material";
 import TopBar from "../Components/TopBar";
-import "./WriteBlog.css";
+import "./styles/WriteBlog.css";
 import JoditEditor from "jodit-react";
 import CustomButton from "../Components/CustomButton";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function WriteBlog() {
   const [title, setTitle] = useState("");
@@ -22,10 +23,10 @@ function WriteBlog() {
       desc: content,
     };
     try {
-        const res = await axios.post("http://localhost:3000/api/posts", newPost);
+      const res = await axios.post("http://localhost:3000/api/posts", newPost);
       console.log(res);
 
-      window.location.replace("/"); 
+      window.location.replace("/");
 
       // window.location.replace("http://localhost:3000/api/blog/" + res.data._id);
 
@@ -107,9 +108,12 @@ function WriteBlog() {
           </Grid>
           <Grid item className="write_bottombtn">
             <Grid container direction="row" justifyContent="end">
-              <Grid item className="cancel_btnspace">
-                <CustomButton name="Cancel" addStyles="cancel_btn" />
-              </Grid>
+              <Link to="/">
+                <Grid item className="cancel_btnspace">
+                  <CustomButton name="Cancel" addStyles="cancel_btn" />
+                </Grid>
+              </Link>
+
               <Grid item>
                 <CustomButton name="Publish" onClicked={handleSubmit} />
               </Grid>

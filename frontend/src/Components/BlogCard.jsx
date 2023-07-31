@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import "./Blogcard.css";
+import "./styles/Blogcard.css";
 import Image from "./Image";
 // import blog1 from "./../assets/landing.svg";
 import blog1 from "../assets/homepage.png";

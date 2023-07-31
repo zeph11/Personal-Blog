@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, InputLabel } from "@mui/material";
-import "./SearchBar.css";
+import "./styles/SearchBar.css";
 import FormControl from "@mui/material/FormControl";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputAdornment from "@mui/material/InputAdornment";

@@ -1,11 +1,11 @@
 import React from "react";
-import BlogPage from "./Views/blogpage";
-import HomePage from "./Views/homepage";
+import BlogPage from "./views/BlogPage";
 
 import { useRoutes } from "react-router-dom";
-import WriteBlog from "./Views/WriteBlog";
-import BlogList from "./Views/BlogList";
+import WriteBlog from "./views/WriteBlog";
+import BlogList from "./views/BlogList";
 import Confirmation from "./Components/Confirmation";
+import HomePage from "./views/homepage";
 
 const RoutedPath = () => {
   const routes = useRoutes([

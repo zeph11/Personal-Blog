@@ -1,5 +1,5 @@
 import React from "react";
-import "./image.css";
+import "./styles/image.css";
 
 const Image = ({ src, alt, addStyles, onClick, ...rest }) => {
   return (

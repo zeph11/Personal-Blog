@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import "./CategoriesBar.css";
+import "./styles/CategoriesBar.css";
 import { Category } from "./Category";
 
 function CategoriesBar() {

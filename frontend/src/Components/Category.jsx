@@ -3,7 +3,7 @@ export const Category = [
     title: "Category1",
   },
   {
-    title: "Caegoryt2",
+    title: "Category2",
   },
   {
     title: "Category3",

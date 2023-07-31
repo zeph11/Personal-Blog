@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./homepage.css";
+import "./styles/homepage.css";
 import { Grid } from "@mui/material";
 import { BsPen } from "react-icons/bs";
 
@@ -16,15 +16,6 @@ import axios from "axios";
 
 function HomePage() {
   const [posts, setPosts] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchPosts = async () => {
-  //     const res = await axios.get("http://localhost:3000/api/posts");
-  //     setPosts(res.data);
-  //   };
-  //   fetchPosts();
-  //   console.log(posts);
-  // }, []);
   useEffect(() => {
     const fetchPosts = async () => {
       const res = await axios.get("http://localhost:3000/api/posts");

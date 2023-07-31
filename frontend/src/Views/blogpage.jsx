@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Grid } from "@mui/material";
-import "./blogpage.css";
+import "./styles/blogpage.css";
 import TopBar from "../Components/TopBar";
 // import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 // import CustomButton from "../Components/CustomButton";

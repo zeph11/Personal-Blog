@@ -4,7 +4,7 @@ import TopBar from "../Components/TopBar";
 import SearchBar from "../Components/SearchBar";
 import CategoriesBar from "../Components/CategoriesBar";
 import BlogCard from "../Components/BlogCard";
-import "./BlogList.css";
+import "./styles/BlogList.css";
 import axios from "axios";
 
 function BlogList() {
@@ -34,7 +34,7 @@ function BlogList() {
         </Grid>
         <Grid item className="bloglist_blogs">
           {posts.map((p) => (
-            <BlogCard post={p} />
+            <BlogCard post={p} key={p._id} />
           ))}
           {/* <BlogCard />
           <BlogCard /> */}
