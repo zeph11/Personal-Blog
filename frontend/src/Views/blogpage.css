@@ -1,0 +1,71 @@
+.blog_bar{
+    outline: 1px solid red;
+}
+
+.blog_main{
+    padding-left: 20rem; 
+    padding-right: 20rem;
+}
+
+.blog_remaining{
+    /* background-color: aliceblue; */
+}
+
+.blog_mainimage{
+    outline: 1px solid lime;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.blogtitleblock{
+    /* background-color: #ebeff5; */
+    padding-top: 4rem;    
+}
+
+.blogtitle{
+    font-weight: 500;
+    font-size: 3em;
+}
+.blog_main{
+    padding-top: 3em;
+}
+
+.socialmedia_section{
+    /* outline: 1px solid black; */
+    width: 25%;
+    text-align: end;
+    /* outline: 1px solid lime; */
+}
+
+.social_space{
+    padding-right: 0.8em;
+    font-size: 1.15em;
+    cursor: pointer;
+}
+
+.edit_icon{
+    padding-right: 1em;
+    color: green;
+}
+
+.delete_icon{
+    color: rgb(131, 36, 36);
+    cursor: pointer;
+}
+
+.share_icons{
+    padding-right: 1em;
+    color: rgb(100, 100, 199);
+
+}
+
+.blogpage_subtitle{
+    padding-bottom: 1.3em;
+    font-style: italic;
+}
+
+.blogpg_date{
+    font-weight: 500;
+    font-size: 1em;
+}

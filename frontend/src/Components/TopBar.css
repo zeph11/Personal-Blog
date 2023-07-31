@@ -1,0 +1,58 @@
+.topbar_root{
+    color: #1a1a1a;
+    background-color: #FFECD1;
+    width: 100%;
+    height:clamp(6em, 6em, 10em);
+    padding-left: 12rem; 
+    padding-right: 12rem;
+    padding-top: 2em;
+    /* padding-right: 1.5em;
+    padding-left: 1.5em; */
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar_main{    
+    /* outline: 1px solid lime; */
+    place-items: center;
+    
+}
+
+.blog_name{
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 25%;
+    /* outline: 1px solid blue; */
+}
+
+.blog_options{
+    /* outline: 1px solid red; */
+    width: 50%;
+    text-align: center;
+
+}
+
+.each_blogoptionselected{
+    padding-right: 3em;
+    font-size: 1.3em;
+    color: #495c83;
+}
+
+.each_blogoption{
+    padding-right: 3em;
+    font-size: 1.1em
+}
+
+
+
+.socialmedia_section{
+    /* outline: 1px solid black; */
+    width: 25%;
+    text-align: end;
+}
+
+.social_space{
+    padding-right: 0.8em;
+    font-size: 1.15em;
+    cursor: pointer;
+}

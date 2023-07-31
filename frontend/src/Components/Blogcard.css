@@ -1,0 +1,56 @@
+.blogcard_root{
+    padding: 2em;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    text-align: justify;
+}
+
+
+.blogcard_desc{
+    width: 82%;
+    padding-left: 2em;
+    /* outline: 1px solid red; */
+}
+.blogcard_image{
+    height: clamp(10px,250px, 250px);
+    width:clamp(10px,250px, 250px);
+    outline: 1px solid black;
+}
+.blogcard_date{
+    /* outline: 1px solid red; */
+}
+.blogcard_blogname{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.blogcard_button{
+    width: 15%;
+    padding-top: 1em;
+    min-width: 150px;
+    padding-bottom: 2em;
+    
+}
+
+.blogcard_icon{
+    /* outline: 1px solid lime; */
+    padding-right: 10px;
+    place-items: center;
+    padding-left: 8px;
+    padding-top: 4px;    
+}
+
+.blogcard_edit{
+    font: 1.2em;
+    
+}
+
+.icon{
+    width: 100%;
+    /* outline: 1px solid red; */
+}
+
+.blogcard_author{
+    font-weight: 500;
+    font-size: 1.1em
+}

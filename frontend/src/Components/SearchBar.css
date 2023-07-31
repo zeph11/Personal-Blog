@@ -1,0 +1,32 @@
+.searchbar_root{
+    /* outline: 1px solid lime; */
+    padding-top: 3em;
+    padding-bottom: 3em;
+    /* width: 50%; */
+
+    
+}
+
+.searchbox{
+    /* background-color: grey; */
+    outline: 1px solid black;
+    width: 40%;
+    border-radius: 5px; 
+
+}
+
+.input{
+    outline: 1px solid lime;
+    width: 40%;
+}
+
+.searchbar_btn{
+    padding-left: 2em;
+    width: 13%;
+    
+}
+
+.searchbtn_extra{
+    padding: 0.8em;
+}
+

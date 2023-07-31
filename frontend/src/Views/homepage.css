@@ -1,0 +1,53 @@
+.homepage_root{
+    /* outline: 1px solid lime; */
+
+}
+
+.homepage_main{
+    /* outline: 1px solid red; */
+    padding-top: 5em;
+    padding-left: 12rem; 
+    padding-right: 12rem;
+}
+
+.homepage_mainsection{
+    padding-bottom: 2rem;
+}
+
+.homepage_intro{
+    font-size: 5em;
+    padding-top: clamp(20px, 50px, 100px);
+    font-weight: 700;
+    /* outline: 1px solid lime ; */
+}
+.homepage_image{
+    /* outline: 1px solid lime; */
+    width: 550px;
+    height: 550px;    
+}
+
+
+.homepage_remainning{
+    /* outline: 1px solid red; */
+    padding-bottom: 5em;
+}
+.homepage_subintro{
+    font-size: 1.3em;
+    padding-top:1em;
+}
+
+.writeblog_btn{
+    padding-top: 2em;
+    width: 23%;
+    
+}
+
+.write_btn{
+    padding: 1em;
+}
+
+.home_latest{
+    padding-left: 1.5em;
+    font-size: 1.2em;
+    font-weight: 500
+}

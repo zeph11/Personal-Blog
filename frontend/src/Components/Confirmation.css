@@ -1,0 +1,50 @@
+.confirm_root{
+    /* outline: 1px solid lime; */
+    /* background-color: #5e5d5dcc; */
+    /* height: 100vh;  */
+    width:100%;
+
+}
+
+.confirm_main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    /* max-width: 600px; */
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 6px 6px 16px -3px rgba(35,56,83,0.7);
+    -webkit-box-shadow: 6px 6px 16px -3px rgba(35,56,83,0.7);
+    -moz-box-shadow: 6px 6px 16px -3px rgba(35,56,83,0.7);
+    
+}
+
+.confirm_text{
+    font-size: 1.1em;
+    /* outline: 1px solid lime; */
+
+    font-weight: 500;
+}
+.confirm_btns{
+    padding-top: 2em;
+}
+
+.confirm_btn{
+    padding-right: 2em;
+}
+
+.return_btn{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+}
+
+.return_btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
