@@ -34,6 +34,15 @@ View Blog Posts: The website provides a user-friendly interface for visitors to 
 ![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/56655a96-4be3-47c2-ab37-0cf3f7d24b1b)
 ![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/1b6dff20-6635-4539-a643-85b7cef48d38)
 
+# API Documentation
+The blog project's backend API provides the following endpoints:
+
+GET /api/posts: Retrieve all blog posts.
+GET /api/posts/:id: Retrieve a specific blog post by ID.
+POST /api/posts: Create a new blog post. 
+PUT /api/posts/:id: Update an existing blog post by ID. Requires a JSON body with title, content, and featuredImage fields.
+DELETE /api/posts/:id: Delete a blog post by ID.
+
 ## Limitations
   **-No Authentication System:**  Currently, the website only has single-user authentication system, which means that only the owner can access and interact with the site. Other users cannot create accounts or log in to        view the content. This limitation restricts the website's audience to the owner alone.<br/>
   **-Testing Limitation:**  While efforts were made to include testing for the project using Jest, Vite's limitations prevented the full integration of the testing framework. As a result, the test coverage may be limited, and  the application has not be adequately tested.<br/>
