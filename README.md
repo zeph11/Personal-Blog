@@ -54,7 +54,6 @@ The blog project's backend API provides the following endpoints:<br/>
 For any inquiries or questions regarding this project, you can contact via email at luniva121@gmail.com.
 
 # Screenshots<br/>
-
+![homepage (2)](https://github.com/zeph11/Personal-Blog/assets/67690169/c6f8e866-2b6a-4453-ae2c-c1c1a162d434)
 ![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/fa3e6df8-b76d-419b-9f2a-7175b899ddbc)
 ![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/7bd12611-c59f-4b64-9524-40c31cf2f593)
-![homepage (2)](https://github.com/zeph11/Personal-Blog/assets/67690169/c6f8e866-2b6a-4453-ae2c-c1c1a162d434)
