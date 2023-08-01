@@ -48,6 +48,8 @@ The blog project's backend API provides the following endpoints:<br/>
   
   **-Static Featured Images:** Currently, the featured images for blog posts are static and not dynamically generated. This limitation means that each blog post's featured image is hardcoded or fixed and cannot be changed or customized by the owner when creating or editing a post. <br/>
 
+  **-Form Validation** Currently, there is no form validation in the form and hence user can send empty data to the form too. <br/>
+
 
 
 ## Contact
