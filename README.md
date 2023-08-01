@@ -11,6 +11,14 @@ A simple single-user personal blog website that allows the owner to post regular
     -Change directory to the frontend folder: cd frontend
     -Install dependencies: yarn install
     -Start the frontend development server: yarn dev
+## Features
+    ** Create Blog Posts:**The owner can create and publish new blog posts. Each post includes a title, subtitle and content.
+
+    ** Edit and Update Posts:** The owner has the ability to edit existing blog posts and update their content.
+
+    ** Delete Posts:** The owner can delete unwanted blog posts from the website.
+
+    ** View Blog Posts:** The website provides a user-friendly interface for visitors to view all published blog posts. Visitors can read the full content of each post and view the featured image.
 
 ## Limitations
   **-No Authentication System:**  Currently, the website only has single-user authentication system, which means that only the owner can access and interact with the site. Other users cannot create accounts or log in to        view the content. This limitation restricts the website's audience to the owner alone.<br/>
