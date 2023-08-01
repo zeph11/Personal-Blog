@@ -35,13 +35,13 @@ View Blog Posts: The website provides a user-friendly interface for visitors to 
 ![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/1b6dff20-6635-4539-a643-85b7cef48d38)
 
 # API Documentation
-The blog project's backend API provides the following endpoints:
+The blog project's backend API provides the following endpoints:<br/>
 
-GET /api/posts: Retrieve all blog posts.
-GET /api/posts/:id: Retrieve a specific blog post by ID.
-POST /api/posts: Create a new blog post. 
-PUT /api/posts/:id: Update an existing blog post by ID. Requires a JSON body with title, content, and featuredImage fields.
-DELETE /api/posts/:id: Delete a blog post by ID.
+GET /api/posts: Retrieve all blog posts.<br/>
+GET /api/posts/:id: Retrieve a specific blog post by ID .<br/>
+POST /api/posts: Create a new blog post. <br/>
+PUT /api/posts/:id: Update an existing blog post by ID . Requires a JSON body with title, content, and featuredImage fields.<br/>
+DELETE /api/posts/:id: Delete a blog post by ID .<br/>
 
 ## Limitations
   **-No Authentication System:**  Currently, the website only has single-user authentication system, which means that only the owner can access and interact with the site. Other users cannot create accounts or log in to        view the content. This limitation restricts the website's audience to the owner alone.<br/>
