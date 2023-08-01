@@ -27,8 +27,8 @@ Delete Posts: The owner can delete unwanted blog posts from the website.
 
 View Blog Posts: The website provides a user-friendly interface for visitors to view all published blog posts. Visitors can read the full content of each post and view the featured image.
 
-#Screenshots
-![homepage](https://github.com/zeph11/Personal-Blog/assets/67690169/1ffa2a11-e37c-40b1-bca5-775600852a8f)
+# Screenshots<br/>
+![homepage](https://github.com/zeph11/Personal-Blog/assets/67690169/1ffa2a11-e37c-40b1-bca5-775600852a8f.png =100x20 )
 ![blogpage](https://github.com/zeph11/Personal-Blog/assets/67690169/b21272df-3e7e-4fe4-bff5-6bfe87d8068c)
 ![blogs](https://github.com/zeph11/Personal-Blog/assets/67690169/aabf9b44-506c-44bb-b3b3-d61170a80988)
 
