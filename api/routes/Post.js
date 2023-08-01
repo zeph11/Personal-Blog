@@ -18,11 +18,12 @@ router.post("/", async (req, res)=>{
 
 
 //update post
-router.put("./id", async (req, res)=>{
+router.put("/:id", async (req, res)=>{
      try{
         const post= await Post.findById(req.params.id)
         try{const updatedPost=await Post.findByIdAndUpdate(req.params.id, {$set:req.body, }, {new:true }) ;
-        res.status(200).json(updatedPost)}catch(err){}
+        res.status(200).json(updatedPost),{    withCredentials: true,
+        }}catch(err){}
      }catch(err){
         res.status(500).json(err)
      }

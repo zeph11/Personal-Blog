@@ -22,7 +22,6 @@ function BlogPage() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [blog, setBlog] = useState([]);
-
   useEffect(() => {
     const getPost = async () => {
       const res = await axios.get("http://localhost:3000/api/posts/" + path);
@@ -32,7 +31,7 @@ function BlogPage() {
   }, []);
 
   useEffect(() => {
-    console.log(blog);
+    // console.log(blog);
     // console.log(path);
   }, [blog]);
 
@@ -110,9 +109,12 @@ function BlogPage() {
                         <Grid item className="share_icons">
                           <BiShare size={27} />
                         </Grid>
-                        <Grid item className="edit_icon">
-                          <GrEdit size={23} />
-                        </Grid>
+                        <Link to={`/editblog/${path}`}>
+                          <Grid item className="edit_icon">
+                            <GrEdit size={23} />
+                          </Grid>
+                        </Link>
+
                         {/* <Link to="/confirmation"> */}
                         <Grid item className="delete_icon">
                           <MdDeleteForever onClick={confirmdelete} size={28} />

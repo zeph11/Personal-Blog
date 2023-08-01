@@ -16,9 +16,9 @@
     width:clamp(10px,250px, 250px);
     outline: 1px solid black;
 }
-.blogcard_date{
-    /* outline: 1px solid red; */
-}
+/* .blogcard_date{
+    outline: 1px solid red;
+} */
 .blogcard_blogname{
     font-weight: 500;
     font-size: 2em;

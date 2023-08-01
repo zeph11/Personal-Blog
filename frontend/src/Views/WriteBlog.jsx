@@ -25,12 +25,7 @@ function WriteBlog() {
     try {
       const res = await axios.post("http://localhost:3000/api/posts", newPost);
       console.log(res);
-
       window.location.replace("/");
-
-      // window.location.replace("http://localhost:3000/api/blog/" + res.data._id);
-
-      // console.log(apiRes.data);
     } catch (error) {
       console.error(error);
     }
