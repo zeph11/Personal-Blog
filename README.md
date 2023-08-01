@@ -2,6 +2,15 @@
 
 A simple single-user personal blog website that allows the owner to post regular blogs, edit them, delete them, and view them in a nice interactive website. The project includes a simple backend to add, delete, view, and edit posts.
 
+## Features
+Create Blog Posts:The owner can create and publish new blog posts. Each post includes a title, subtitle and content.
+
+Edit and Update Posts:The owner has the ability to edit existing blog posts and update their content.
+
+Delete Posts: The owner can delete unwanted blog posts from the website.
+
+View Blog Posts: The website provides a user-friendly interface for visitors to view all published blog posts. Visitors can read the full content of each post and view the featured image.
+
 ## Installation
   ### Backend
     -Change directory to the backend folder: cd api
@@ -17,15 +26,7 @@ A simple single-user personal blog website that allows the owner to post regular
   HTML, CSS, JavaScript, Vite 
   ### Backend
   Node.js, Express , MongoDB 
-    
-## Features
-Create Blog Posts:The owner can create and publish new blog posts. Each post includes a title, subtitle and content.
 
-Edit and Update Posts:The owner has the ability to edit existing blog posts and update their content.
-
-Delete Posts: The owner can delete unwanted blog posts from the website.
-
-View Blog Posts: The website provides a user-friendly interface for visitors to view all published blog posts. Visitors can read the full content of each post and view the featured image.
 
 
 
