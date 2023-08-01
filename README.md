@@ -29,7 +29,7 @@ View Blog Posts: The website provides a user-friendly interface for visitors to 
 
 # Screenshots<br/>
 
-![homepage](https://github.com/zeph11/Personal-Blog/assets/67690169/1ffa2a11-e37c-40b1-bca5-775600852a8f)
+![homepage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/24aec7c5-da53-4a08-8c0c-fa0ffafa427e)
 ![blogpage](https://github.com/zeph11/Personal-Blog/assets/67690169/b21272df-3e7e-4fe4-bff5-6bfe87d8068c)
 ![blogs](https://github.com/zeph11/Personal-Blog/assets/67690169/aabf9b44-506c-44bb-b3b3-d61170a80988)
 
