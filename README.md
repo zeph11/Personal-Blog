@@ -13,14 +13,16 @@ A simple single-user personal blog website that allows the owner to post regular
     -Start the frontend development server: yarn dev
 
 ## Limitations
-  -No Authentication System: The website does not have an authentication system, so only the owner can perform actions like adding, editing, and deleting posts. Other users can only view the blog posts.<br/>
-  -Testing Limitation: The project attempted to use Jest for testing, but due to Vite's limitations, full Jest integration was not achieved.<br/>
-  -Filtering, Searching, and Categorization: While the website has features for filtering, searching, and categorizing blog posts, these features have not been fully implemented yet.<br/>
-  -Static Featured Images: The feature image for blog posts is currently static and not dynamically generated.<br/>
+  **-No Authentication System:**  Currently, the website only has single-user authentication system, which means that only the owner can access and interact with the site. Other users cannot create accounts or log in to        view the content. This limitation restricts the website's audience to the owner alone.<br/>
+  **-Testing Limitation:**  While efforts were made to include testing for the project using Jest, Vite's limitations prevented the full integration of the testing framework. As a result, the test coverage may be limited, and  the application has not be adequately tested.<br/>
+  **Filtering, Searching, and Categorization:** The website was designed with features for filtering, searching, and categorizing blog posts to enhance user experience and content organization. However, these features have not been fully implemented at the moment. <br/>
+  **-Static Featured Images:** Currently, the featured images for blog posts are static and not dynamically generated. This limitation means that each blog post's featured image is hardcoded or fixed and cannot be changed or customized by the owner when creating or editing a post. <br/>
 
 ## Technologies Used
- ### Frontend: HTML, CSS, JavaScript, Vite 
-  ### Backend: Node.js, Express , MongoDB 
+ ### Frontend
+     HTML, CSS, JavaScript, Vite 
+  ### Backend
+      Node.js, Express , MongoDB 
 
 ## Contact
 For any inquiries or questions regarding this project, you can contact via email at luniva121@gmail.com.
