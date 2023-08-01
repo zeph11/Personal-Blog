@@ -55,7 +55,6 @@ For any inquiries or questions regarding this project, you can contact via email
 
 # Screenshots<br/>
 
-![homepage (2)](https://github.com/zeph11/Personal-Blog/assets/67690169/9a58c0ed-ad81-4ecb-994f-6cd134f719ff)![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/54553dab-8b12-40ef-bf86-4f1c0627af4a)
-
-![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/56655a96-4be3-47c2-ab37-0cf3f7d24b1b)
-![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/1b6dff20-6635-4539-a643-85b7cef48d38)
+![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/fa3e6df8-b76d-419b-9f2a-7175b899ddbc)
+![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/7bd12611-c59f-4b64-9524-40c31cf2f593)
+![homepage (2)](https://github.com/zeph11/Personal-Blog/assets/67690169/c6f8e866-2b6a-4453-ae2c-c1c1a162d434)
