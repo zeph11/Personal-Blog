@@ -29,10 +29,10 @@ View Blog Posts: The website provides a user-friendly interface for visitors to 
 
 # Screenshots<br/>
 
-![homepage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/24aec7c5-da53-4a08-8c0c-fa0ffafa427e)
-![blogpage](https://github.com/zeph11/Personal-Blog/assets/67690169/b21272df-3e7e-4fe4-bff5-6bfe87d8068c)
-![blogs](https://github.com/zeph11/Personal-Blog/assets/67690169/aabf9b44-506c-44bb-b3b3-d61170a80988)
 
+![homepage (2)](https://github.com/zeph11/Personal-Blog/assets/67690169/9a58c0ed-ad81-4ecb-994f-6cd134f719ff)
+![blogpage (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/56655a96-4be3-47c2-ab37-0cf3f7d24b1b)
+![blogs (1)](https://github.com/zeph11/Personal-Blog/assets/67690169/1b6dff20-6635-4539-a643-85b7cef48d38)
 
 ## Limitations
   **-No Authentication System:**  Currently, the website only has single-user authentication system, which means that only the owner can access and interact with the site. Other users cannot create accounts or log in to        view the content. This limitation restricts the website's audience to the owner alone.<br/>
